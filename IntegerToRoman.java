@@ -1,6 +1,25 @@
+/* Learning Trick
+ * 1000
+ * 900
+ * 500
+ * 400
+ * 
+ * 100
+ * 90
+ * 50
+ * 40
+ * 
+ * 10
+ * 9
+ * 5
+ * 4
+ * 
+ * 1
+ */
+
 public class IntegerToRoman {
     public String IntToRoman(int num) {
-        int[] intCode = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        int[] intCode = { 1000, 900, 500, 400,  100,  90,  50,   40,  10,   9,    5,   4,    1 };
         String[] code = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
         String sb = "";
@@ -15,7 +34,6 @@ public class IntegerToRoman {
 
     public static void main(String[] args) {
         IntegerToRoman obj = new IntegerToRoman();
-
-        System.out.println(obj.IntToRoman(192));
+        System.out.println(obj.IntToRoman(80));
     }
 }
