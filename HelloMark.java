@@ -9,7 +9,7 @@ import java.util.*;
  *  www google com  ->   231325
  */
 
-public class Solution {
+public class HelloMark {
     public String assignment(String inp) {
         String splited[] = inp.split(" ");
         String result="";
@@ -37,7 +37,7 @@ public class Solution {
     }
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        Solution sol = new Solution();
+        HelloMark sol = new HelloMark();
         String str = obj.nextLine();
         System.out.println(sol.assignment(str));
     }
