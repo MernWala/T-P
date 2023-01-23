@@ -7,7 +7,6 @@
  * ----------------
  * Sample Input 0
  * 582109
- * 
  * 5^8 + 8^2 + 2^1 + 1^0 + 0^9 + 9^0
  * 390625 + 64 + 2 + 1 + 0 + 1
  * 390693
@@ -33,7 +32,6 @@ public class Number55_1 {
         try{
             for(int i=0; i<data.length; i++)
                 temp += findPower(Integer.valueOf(data[i]), Integer.valueOf(data[i+1]));
-            temp += 1;
         }catch(Exception e){
             return temp;
         }

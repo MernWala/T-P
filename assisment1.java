@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class assisment1 {
     public static int add(String str){
-        String[] splited = str.split("[A-z]");
+        str = str.toLowerCase();
+        String[] splited = str.split("[a-z]");
         int sum = 0, temp;
         boolean flag=false;
 
